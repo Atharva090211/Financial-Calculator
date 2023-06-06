@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumpsum  Calculate</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Lumpsum Calculator</h2>
+            <div class="form-element">
+                <br><input type="text" placeholder="INVESTMENT AMOUNT" name="" value="" id="number1"><br>
+
+				<br><input type="text" placeholder="EXPEXCTED RATE OF RETURN(P.A)" name="" value="" id="number2"><br>
+
+				<br> <input type="text" placeholder="TENURE (IN YEARS) (UPTO 50 YEARS)" name="" value="" id="number3"><br>
+				<input type="button" value="PLAN MY FUTURE VALUE" onclick=" return myfun()"><br><br>
+                The result is :
+                <span id="result"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

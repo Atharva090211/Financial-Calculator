@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP Calculate</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>SIP Calculator</h2>
+            <div class="form-element">
+                <br> <input type="text" placeholder="FREQUENCY OF INVESTMENT:" name="" value="" id="sip1"><br>
+          
+           
+                <br> <input type="text" placeholder="MONTHLY INVESTMENT AMOUNT:" name="" value="" id="sip2"><br>
+           
+                <br><input type="text" placeholder="EXPECTED RATE OF RETURN(P.A):" name="" value="" id="sip3"><br>
+            
+                <br><input type="text" placeholder="TENURE (IN YEARS) (UPTO 50 YEARS):" name="" value="" id="sip4">
+            
+                <br><button onclick=" return sip()">Result</button>
+                <br><br>The result is :<span id="sipr"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

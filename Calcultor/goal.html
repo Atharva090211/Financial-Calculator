@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Planning  Calculate</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Goal Planning Calculator</h2>
+            <div class="form-element">
+                <br><input type="text" placeholder="TARGETED WEALTH:" name="" value="" id="gpl1"><br>
+
+                    <br><input type="text" placeholder="EXPECTED RATE OF RETURNS:" name="" value="" id="gpl2"><br>
+
+                    <br><input type="text" placeholder="TENURE(IN YEARS) UPTO 50 YEARS" name="" value="" id="gpl3"><br>
+
+                    <br><input type="text" placeholder="ADJUST FOR INFLATION:" name="" value="" id="gpl4"><br>
+                    <input type="button" value="PLAN MY GOAL:" onclick=" return gpl()"><br>
+                    The result is :
+                    <span id="goalpl"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
